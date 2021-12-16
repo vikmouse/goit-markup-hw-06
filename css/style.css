@@ -789,6 +789,68 @@ body {
 
 .social-footer-icon { fill:currentColor }
 
+.footer-form-group {
+    margin-left: 93px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.footer-form-title {
+
+    margin-left: 93px;
+    margin-bottom: 20px;
+    
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.footer-form-input {
+    padding: 15px 0 15px 16px;
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-form-input::placeholder {
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.footer-button-form {
+    
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: none;
+}
+/* .icon-send {
+    display: inline-block;
+} */
+
 
 .backdrop {
     position: fixed;
@@ -885,12 +947,13 @@ body {
 
 
 .form-label-checkbox {
+    margin-bottom: 30px;
 
     font-family: Roboto;
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
-    
+
 }
 
 .conditions-form {
