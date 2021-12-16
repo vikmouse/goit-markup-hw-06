@@ -422,10 +422,9 @@
     <footer class="footer">
       <div class="container wrap-footer">
         <div class="footer-thumb">
-          <a class="link link-logo footer-logo" href=""
-            >Web<span class="half-logo-footer">Studio</span></a
-          >
-
+          <p class="link-logo footer-logo">Web
+            <span class="half-logo-footer">Studio</span>
+          </p>
           <address>
             <ul class="list footer-list">
               <li class="item">
@@ -482,16 +481,19 @@
           <h4 class="footer-form-title"
           >Подпишитесь на рассылку
           </h4>
-          <div class="footer-form-group">
-            <input class="footer-form-input"
-            type="email" 
-            name="e-mail"
-            placeholder="E-mail"
-            >
-            <button type="submit" class="footer-button-form"
-            >Подписаться
-            <svg class="icon-send"  width="24" height="24" ><use href="./image/icons.svg#send"></use></svg>
-            </button>
+          <form action="">
+            <div role="group" class="footer-form-group">
+              <input class="footer-form-input"
+              type="email" 
+              name="e-mail"
+              placeholder="E-mail"
+              >
+              <button type="submit" class="footer-button-form"
+              >Подписаться
+              <svg class="icon-send"  width="24" height="24" ><use href="./image/icons.svg#send"></use></svg>
+              </button>
+          </form>
+          
           </div>
         </div>
       </div>
@@ -505,7 +507,7 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form action="#" class="modal-form">
-          <div class="form-group">
+          <div role="group" class="form-group">
             <label for="name" 
               class="form-label"
               >Имя 
@@ -518,10 +520,10 @@
             />
           </div>
           
-          <div class="form-group">
+          <div role="group" class="form-group">
             <label for="tel" 
-            class="form-label">Телефон
-          </label>
+              class="form-label">Телефон
+            </label>
             <input 
               type="tel"  
               id="tel" 
@@ -530,7 +532,7 @@
             />
           </div>
           
-          <div class="form-group">
+          <div role="group" class="form-group">
             <label for="mail" class="form-label">Почта</label>
             <input 
               type="email"  
@@ -540,7 +542,7 @@
             />
           </div>
           
-          <div class="form-group">
+          <div role="group" class="form-group">
             <label 
               for="user-text" 
               class="form-label">Коментарий
@@ -553,11 +555,12 @@
             ></textarea>
           </div>
           
-          <div class="">
-            <input 
+          <div role="group" class="checkbox-modal">
+            <input class="checkbox-conditions"
               type="checkbox" 
               name="agreement" 
               id="agreement"
+              value="agreement"
             />
             <label 
               for="agreement" 

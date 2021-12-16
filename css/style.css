@@ -813,10 +813,12 @@ body {
     padding: 15px 0 15px 16px;
     width: 358px;
     height: 50px;
+    color:rgba(255, 255, 255, 0.6); 
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    outline: none;
 }
 
 .footer-form-input::placeholder {
@@ -846,6 +848,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-style: none;
+    cursor: pointer;
 }
 /* .icon-send {
     display: inline-block;
@@ -943,6 +946,7 @@ body {
     color: var(--second-btn-color);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    outline: none;
 }
 
 
@@ -955,6 +959,7 @@ body {
     color: #757575;
 
 }
+
 
 .conditions-form {
     font-family: Roboto;
@@ -1005,6 +1010,7 @@ body {
     border-style: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
