@@ -503,7 +503,9 @@
           </div>
           
           <div class="form-group">
-            <label for="tel" class="form-label">Телефон</label>
+            <label for="tel" 
+            class="form-label">Телефон
+          </label>
             <input 
               type="tel"  
               id="tel" 
@@ -530,27 +532,25 @@
             <textarea 
               name="comment" 
               id="comment" 
-              cols="100%" 
-              rows="100%"
               placeholder="Введите текст" 
-              class="modal-form-input"
+              class="comment"
             ></textarea>
           </div>
           
-          <div class="form-group">
-            <label 
-              for="agreement" 
-              class="form-label-checkbox">Соглашаюсь с рассылкой и принимаю
-              <a href="" class="conditions-form">Условия договора
-              </label></a>
+          <div class="">
             <input 
               type="checkbox" 
               name="agreement" 
               id="agreement"
             />
+            <label 
+              for="agreement" 
+              class="form-label-checkbox">Соглашаюсь с рассылкой и принимаю
+              <a href="" class="conditions-form">Условия договора
+              </label></a>
             </div>
           
-          <button type="submit">Отправить</button>
+          <button type="submit" class="button button-form">Отправить</button>
         </form>
       </div>
     </div>
