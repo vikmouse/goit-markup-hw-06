@@ -860,7 +860,7 @@ body {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.form-group textarea {
+.form-group-textarea {
   margin-bottom: 20px;
 }
 
@@ -906,7 +906,12 @@ body {
   fill: var(--accent-color);
 }
 
+.checkbox-modal {
+  margin-bottom: 30px;
+}
+
 .form-label-checkbox {
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
