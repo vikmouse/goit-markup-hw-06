@@ -911,11 +911,9 @@ body {
 }
 
 .form-label-checkbox {
-  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
 
   font-family: Roboto;
   font-size: 14px;
